@@ -45,26 +45,33 @@ const skillsSection = {
   title: "What I do",
   subTitle: "COMPUTER ENGINEERING STUDENT EXPLORING CLOUD, FULL STACK & AI/ML",
   skills: [
-    emoji("⚡ Build full-stack web applications using the MERN stack (MongoDB, Express, React, Node.js)"),
-    emoji("⚡ Deploy and manage cloud infrastructure on AWS — EC2, VPC, IAM, S3"),
-    emoji("⚡ Develop deep learning models using CNNs and Transfer Learning for real-world problems")
+    emoji(
+      "⚡ Build full-stack web applications using the MERN stack (MongoDB, Express, React, Node.js)"
+    ),
+    emoji(
+      "⚡ Deploy and manage cloud infrastructure on AWS — EC2, VPC, IAM, S3"
+    ),
+    emoji(
+      "⚡ Develop deep learning models using CNNs and Transfer Learning for real-world problems"
+    )
   ],
 
   softwareSkills: [
-    { skillName: "C++",        fontAwesomeClassname: "fas fa-code" },
-    { skillName: "Java",       fontAwesomeClassname: "fab fa-java" },
-    { skillName: "Python",     fontAwesomeClassname: "fab fa-python" },
-    { skillName: "HTML5",      fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "CSS3",       fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "ReactJS",    fontAwesomeClassname: "fab fa-react" },
-    { skillName: "NodeJS",     fontAwesomeClassname: "fab fa-node" },
-    { skillName: "MongoDB",    fontAwesomeClassname: "fas fa-database" },
-    { skillName: "SQL",        fontAwesomeClassname: "fas fa-table" },
-    { skillName: "AWS",        fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "Docker",     fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "Git",        fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "GitHub",     fontAwesomeClassname: "fab fa-github" }
+    {skillName: "C++", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "Java", fontAwesomeClassname: "fab fa-java"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: ".NET", fontAwesomeClassname: "fab fa-microsoft"},
+    {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
+    {skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "ReactJS", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "NodeJS", fontAwesomeClassname: "fab fa-node"},
+    {skillName: "MongoDB", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-table"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "GitHub", fontAwesomeClassname: "fab fa-github"}
   ],
   display: true
 };
@@ -101,9 +108,9 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Cloud Computing (AWS)",       progressPercentage: "80%" },
-    { Stack: "Full Stack Dev (MERN)",        progressPercentage: "70%" },
-    { Stack: "C++ / DSA / OOPs",            progressPercentage: "75%" }
+    {Stack: "Cloud Computing (AWS)", progressPercentage: "80%"},
+    {Stack: "Full Stack Dev (MERN)", progressPercentage: "70%"},
+    {Stack: "C++ / DSA / OOPs", progressPercentage: "75%"}
   ],
   displayCodersrank: false
 };
@@ -113,6 +120,17 @@ const techStack = {
 const workExperiences = {
   display: true,
   experience: [
+    {
+      role: ".NET Developer",
+      company: "Indiaresult.com",
+      companylogo: require("./assets/images/IRC-logo.png"),
+      date: "Present",
+      desc: "Currently working as a .NET Developer at ndiaresult.com, developing robust applications using .NET technologies.",
+      descBullets: [
+        "Developing and maintaining .NET applications",
+        "Collaborating on software development projects"
+      ]
+    },
     {
       role: "AWS Cloud Intern",
       company: "EduSkills Foundation",
@@ -147,7 +165,10 @@ const bigProjects = {
       projectDesc:
         "A full-stack MERN app allowing users to upload, stream, and manage podcasts with CRUD operations. Deployed on AWS with MongoDB for scalable storage.",
       footerLink: [
-        { name: "View on GitHub", url: "https://github.com/nirmalchatur/Group7_Podcaster" }
+        {
+          name: "View on GitHub",
+          url: "https://github.com/nirmalchatur/Group7_Podcaster"
+        }
       ]
     },
     {
@@ -156,7 +177,10 @@ const bigProjects = {
       projectDesc:
         "A Deep Learning system using CNNs and Transfer Learning to detect AI-generated fake faces. Includes image preprocessing, model training, and a Flask web interface.",
       footerLink: [
-        { name: "View on GitHub", url: "https://github.com/AnkitPathak0987/Deepfake-detector" }
+        {
+          name: "View on GitHub",
+          url: "https://github.com/AnkitPathak0987/Deepfake-detector"
+        }
       ]
     }
   ],
@@ -176,9 +200,7 @@ const achievementSection = {
         "Completed NPTEL Cloud Computing certification. Covered AWS, GCP, Azure, virtualization, IaaS/PaaS/SaaS, load balancing, auto-scaling, and security.",
       image: require("./assets/images/nptelLogo.png"),
       imageAlt: "NPTEL Logo",
-      footerLink: [
-        { name: "View Certificate", url: "" }
-      ]
+      footerLink: [{name: "View Certificate", url: ""}]
     },
     {
       title: "MERN Stack Development — TechSaksham",
@@ -186,9 +208,7 @@ const achievementSection = {
         "Certified in MERN Stack Application Development under TechSaksham, a Microsoft & SAP CSR initiative.",
       image: require("./assets/images/mernLogo.png"),
       imageAlt: "Microsoft TechSaksham Logo",
-      footerLink: [
-        { name: "View Certificate", url: "" }
-      ]
+      footerLink: [{name: "View Certificate", url: ""}]
     },
     {
       title: "3rd Place — Sub-District Chess Tournament",
@@ -242,7 +262,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Want to discuss a project or just say hi? My inbox is open for all!",
+  subtitle:
+    "Want to discuss a project or just say hi? My inbox is open for all!",
   number: "+91-9631509727",
   email_address: "ankit.anny2004@gmail.com"
 };
