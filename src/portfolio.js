@@ -4,6 +4,12 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
+import mitaoeLogo from "./assets/images/mitaoeLogo.png";
+import schoolLogo from "./assets/images/schoolLogo.jpg";
+import IRCLogo from "./assets/images/IRC-logo.png";
+import nptelLogo from "./assets/images/nptelLogo.png";
+import mernLogo from "./assets/images/mernLogo.png";
+import chessLogo from "./assets/images/chessLogo.png";
 
 // Splash Screen
 
@@ -83,7 +89,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "MIT Academy of Engineering, Pune",
-      logo: require("./assets/images/mitaoeLogo.png"),
+      logo: mitaoeLogo,
       subHeader: "B.Tech. in Computer Engineering",
       duration: "2022 - 2026",
       desc: "Currently pursuing B.Tech with a CGPA of 8.42/10. Focused on Cloud Computing, DSA, DBMS, and Full Stack Development.",
@@ -94,7 +100,7 @@ const educationInfo = {
     },
     {
       schoolName: "P C High School Patsa, Samastipur, Bihar",
-      logo: require("./assets/images/schoolLogo.jpg"),
+      logo: schoolLogo,
       subHeader: "12th Grade — CBSE",
       duration: "2021",
       desc: "Completed 12th with 77.20% marks under CBSE board.",
@@ -123,7 +129,7 @@ const workExperiences = {
     {
       role: ".NET Developer",
       company: "Indiaresult.com",
-      companylogo: require("./assets/images/IRC-logo.png"),
+      companylogo: IRCLogo,
       date: "Present",
       desc: "Currently working as a .NET Developer at ndiaresult.com, developing robust applications using .NET technologies.",
       descBullets: [
@@ -198,7 +204,7 @@ const achievementSection = {
       title: "NPTEL Cloud Computing — Elite (82/100)",
       subtitle:
         "Completed NPTEL Cloud Computing certification. Covered AWS, GCP, Azure, virtualization, IaaS/PaaS/SaaS, load balancing, auto-scaling, and security.",
-      image: require("./assets/images/nptelLogo.png"),
+      image: nptelLogo,
       imageAlt: "NPTEL Logo",
       footerLink: [{name: "View Certificate", url: ""}]
     },
@@ -206,7 +212,7 @@ const achievementSection = {
       title: "MERN Stack Development — TechSaksham",
       subtitle:
         "Certified in MERN Stack Application Development under TechSaksham, a Microsoft & SAP CSR initiative.",
-      image: require("./assets/images/mernLogo.png"),
+      image: mernLogo,
       imageAlt: "Microsoft TechSaksham Logo",
       footerLink: [{name: "View Certificate", url: ""}]
     },
@@ -214,7 +220,7 @@ const achievementSection = {
       title: "3rd Place — Sub-District Chess Tournament",
       subtitle:
         "Secured 3rd place in the Sub-District Chess Tournament, demonstrating analytical and strategic thinking.",
-      image: require("./assets/images/chessLogo.png"),
+      image: chessLogo,
       imageAlt: "Chess Award",
       footerLink: []
     }
