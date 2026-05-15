@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.81623eee.css",
-    "main.js": "/MyPortfolio/static/js/main.90f95f2d.js",
+    "main.js": "/MyPortfolio/static/js/main.19da749c.js",
     "static/css/64.bba8fa55.chunk.css": "/MyPortfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/MyPortfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/MyPortfolio/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.f48bc221.chunk.js": "/MyPortfolio/static/js/769.f48bc221.chunk.js",
-    "static/media/harvardLogo.png": "/MyPortfolio/static/media/harvardLogo.542dab89bfb35b7f5c0d.png",
+    "static/js/769.e54e0a70.chunk.js": "/MyPortfolio/static/js/769.e54e0a70.chunk.js",
+    "static/media/schoolLogo.jpg": "/MyPortfolio/static/media/schoolLogo.21ce07ca997e29b45a0a.jpg",
     "static/media/Montserrat-Regular.ttf": "/MyPortfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/MyPortfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/chessLogo.png": "/MyPortfolio/static/media/chessLogo.b319ca35cb1055655fef.png",
@@ -21,16 +21,15 @@
     "static/media/resume.pdf": "/MyPortfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/MyPortfolio/index.html",
     "static/media/talksCardBack.svg": "/MyPortfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "static/media/schoolLogo.svg": "/MyPortfolio/static/media/schoolLogo.7cd9d91825710169cbd36a36ab95f2b4.svg",
     "main.81623eee.css.map": "/MyPortfolio/static/css/main.81623eee.css.map",
-    "main.90f95f2d.js.map": "/MyPortfolio/static/js/main.90f95f2d.js.map",
+    "main.19da749c.js.map": "/MyPortfolio/static/js/main.19da749c.js.map",
     "64.bba8fa55.chunk.css.map": "/MyPortfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/MyPortfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/MyPortfolio/static/css/769.b3cbb36b.chunk.css.map",
-    "769.f48bc221.chunk.js.map": "/MyPortfolio/static/js/769.f48bc221.chunk.js.map"
+    "769.e54e0a70.chunk.js.map": "/MyPortfolio/static/js/769.e54e0a70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81623eee.css",
-    "static/js/main.90f95f2d.js"
+    "static/js/main.19da749c.js"
   ]
 }
