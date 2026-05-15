@@ -4,8 +4,8 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
-import harvardLogo from "./assets/images/harvardLogo.png";
-import schoolLogo from "./assets/images/schoolLogo.svg";
+import mitaoeLogo from "./assets/images/mitaoeLogo.png";
+import schoolLogo from "./assets/images/schoolLogo.jpg";
 import IRCLogo from "./assets/images/IRC-logo.png";
 import nptelLogo from "./assets/images/nptelLogo.png";
 import mernLogo from "./assets/images/mernLogo.png";
@@ -89,7 +89,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "MIT Academy of Engineering, Pune",
-      logo: harvardLogo,
+      logo: mitaoeLogo,
       subHeader: "B.Tech. in Computer Engineering",
       duration: "2022 - 2026",
       desc: "Currently pursuing B.Tech with a CGPA of 8.42/10. Focused on Cloud Computing, DSA, DBMS, and Full Stack Development.",
